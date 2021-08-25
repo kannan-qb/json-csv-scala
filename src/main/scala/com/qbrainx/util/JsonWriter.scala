@@ -19,7 +19,7 @@ object JsonWriter {
             case None => ","
             case Some(value) => value.toString + ","
           }
-          val rowValue =   f.fname + ","+  f.lname + ","+ f.id + ","+ mobileValue
+          val rowValue =   f.fName + ","+  f.lName + ","+ f.id + ","+ mobileValue
           value.println(rowValue)
         }))
         value.close()
