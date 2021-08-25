@@ -1,5 +1,5 @@
 package com.qbrainx.model
 
-case class Student(id:Int,fname:String,lname:String,mobile:Option[String]) {
+case class Student(fname:String,lname:String,id:Int,mobile:Option[Long]) {
 }
 
